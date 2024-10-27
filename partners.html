@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="ko" class="clientWeb">
+  <head>
+    <title>해주세요 | 무엇이든 해줄게요</title>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="title" content="해주세요 | 무엇이든 해줄게요" />
+    <meta
+      name="description"
+      content="전국 어디서든 도움이 필요할 때, 가장 빠르게 만나는 내 주변 파트너"
+    />
+    <meta property="og:title" content="해주세요 | 무엇이든 해줄게요" />
+    <meta
+      property="og:description"
+      content="전국 어디서든 도움이 필요할 때, 가장 빠르게 만나는 내 주변 파트너"
+    />
+    <meta property="og:image" content="./assets/og_img.jpg" />
+    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon" />
+    <!-- favicon -->
+    <meta
+      name="naver-site-verification"
+      content="d4e345d21f3c58d77e71eba68ed8f175b0661a1a"
+    />
+
+    <!-- TODO: library -->
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/jquery-ui.js"></script>
+
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/jquery.slideToUnlock.js"></script>
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <!-- <link rel="stylesheet" href="v2/css/scrollSelect.css"> -->
+    <link rel="stylesheet" href="./css/jquery-ui.css" />
+
+    <!-- TODO: import -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/scripts.js"></script>
+
+    <!-- Google tag (gtag.js) -->
+    <script src="https://www.googletagmanager.com/gtag/js?id=G-XTMD56KZ04"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-XTMD56KZ04");
+    </script>
+  </head>
+
+  <body>
+    <div id="viewport">
+      <header class="clientWeb-header">
+        <div class="app-inner">
+          <div class="left">
+            <h1 class="logo">
+              <a href="/">
+                <div>해주세요</div>
+              </a>
+            </h1>
+          </div>
+          <div class="right">
+            <a href="#" class="gnb-open">메뉴보기</a>
+            <nav class="gnb">
+              <ul>
+                <li class="mobile">
+                  <a href="/">홈</a>
+                </li>
+                <li>
+                  <a href="/partners.html">파트너 소개</a>
+                </li>
+                <li>
+                  <a href="/company.html">회사 소개</a>
+                </li>
+                <li>
+                  <a href="/faq.html">자주 하는 질문</a>
+                </li>
+              </ul>
+              <div class="logo type-footer">
+                <a href="/">
+                  <div>대행의 모든것 해주세요</div>
+                </a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+
+      <div class="container">
+        <section class="web-section banner video">
+          <span class="header-tric"></span>
+          <div class="app-inner">
+            <div class="title">
+              <div class="maintit">무엇이든 해줄게요</div>
+              <div class="subtit">내 주변 가장 든든한 라이프 파트너</div>
+            </div>
+            <div class="button-group">
+              <a
+                href="javascript:void(0);"
+                onclick="goAppStore();"
+                class="btn-applecation pc"
+                target="_blank"
+                ><img
+                  src="../assets/btn-appStore-w.png"
+                  alt="앱 스토어에서 앱 다운로드"
+              /></a>
+
+              <a
+                href="javascript:void(0);"
+                onclick="goPlayStore();"
+                class="btn-applecation pc"
+                target="_blank"
+                ><img
+                  src="../assets/btn-googlePlay-w.png"
+                  alt="구글 스토어에서 앱 다운로드"
+              /></a>
+
+              <!-- 모바일전용 버튼 -->
+              <a
+                href="javascript:void(0);"
+                onclick="goCommonStore();"
+                class="btn-applecation mo fixed"
+                target="_blank"
+                >앱 다운로드</a
+              >
+              <a
+                href="partnerapplication"
+                class="btn-applecation both floating blue arrow"
+                >파트너 지원하기</a
+              >
+            </div>
+          </div>
+          <div class="video-frame">
+            <video
+              src="./assets/video.mp4"
+              playsinline
+              autoplay
+              muted
+              loop
+            ></video>
+          </div>
+        </section>
+
+        <section class="web-section infographic">
+          <div class="app-inner">
+            <div class="list-infographic el-move">
+              <ul>
+                <li>
+                  <div
+                    class="circle"
+                    style="background-color: rgba(159, 162, 180, 0.7)"
+                  >
+                    <img src="../assets/ico-time.png" alt="" />
+                  </div>
+                  <p class="desc">
+                    내가 원하는<br />
+                    시간에 언제든
+                  </p>
+                </li>
+
+                <li>
+                  <div class="circle" style="background-color: #74758c">
+                    <img src="../assets/ico-pleasehelp.png" alt="" />
+                  </div>
+                  <p class="desc">
+                    내가 필요한<br />
+                    무엇이든
+                  </p>
+                </li>
+
+                <li>
+                  <div class="circle" style="background-color: #353544">
+                    <img src="../assets/ico-speed.png" alt="" />
+                  </div>
+                  <p class="desc">
+                    가장 빠르고<br />
+                    합리적으로
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="web-section partner">
+          <div class="app-inner">
+            <div class="title el-move">
+              <div class="subtit">
+                당신을 위한
+                <div class="counting-value" count-value="300000">0</div>
+                명의
+              </div>
+              <div class="maintit">다양한 파트너</div>
+            </div>
+            <ul class="list-userBlock">
+              <li style="left: 0">
+                <div class="arrow">
+                  <img src="./assets/emoji-positive-3.png" alt="" />
+                </div>
+                <img src="./assets/img-profilePartner01.png" />
+              </li>
+              <li style="left: 10%">
+                <div class="arrow">
+                  <img src="./assets/emoji-positive-3.png" alt="" />
+                </div>
+                <img src="./assets/img-profilePartner02.png" />
+              </li>
+              <li style="left: 20%">
+                <div class="arrow">
+                  <img src="./assets/emoji-positive-3.png" alt="" />
+                </div>
+                <img src="./assets/img-profilePartner03.png" />
+              </li>
+
+              <li style="right: 20%">
+                <div class="arrow">
+                  <img src="./assets/emoji-positive-3.png" alt="" />
+                </div>
+                <img src="./assets/img-profilePartner04.png" />
+              </li>
+              <li style="right: 10%">
+                <div class="arrow">
+                  <img src="./assets/emoji-positive-3.png" alt="" />
+                </div>
+                <img src="./assets/img-profilePartner05.png" />
+              </li>
+              <li style="right: 0%">
+                <div class="arrow">
+                  <img src="./assets/emoji-positive-3.png" alt="" />
+                </div>
+                <img src="./assets/img-profilePartner06.png" />
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="web-section partnerCertification">
+          <div class="row">
+            <div class="column">
+              <div class="cont">
+                <div class="title">
+                  <em class="blue">철저한</em><br />
+                  본인 인증
+                </div>
+                <p class="desc">
+                  신분 제출은 물론 정면 사진 대조와<br />
+                  계좌 정보 확인을 통한<br />
+                  단계별 본인 인증 절차 진행
+                </p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="cont">
+                <div class="title">
+                  <em class="blue">꼼꼼한</em><br />
+                  자격 검증
+                </div>
+                <p class="desc">
+                  운전면허증, 사업자등록증, 자격증 등<br />
+                  서비스에 필요한 자격 요건 제출 후<br />
+                  필수 인증 진행
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="review-wrap">
+            <div class="review el-move">
+              <div class="app-inner">
+                <ul>
+                  <li>
+                    <div class="reviewbox">
+                      <div
+                        class="profile"
+                        style="
+                          background-image: url('../assets/img-profileReview01.png');
+                        "
+                      ></div>
+                      <div class="name">
+                        강지운 파트너
+                        <div class="info">45세 남</div>
+                      </div>
+
+                      <p class="desc">
+                        잘못된 정보를 가지고 대학입시를<br />
+                        준비하는 주변 학생들에게 ‘해주세요'<br />
+                        전문가로서 20년간의 제 경험과 지식을 공유함으로써
+                        이들에게 도움을 줄 수 있어 기뻐요
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="reviewbox">
+                      <div
+                        class="profile"
+                        style="
+                          background-image: url('../assets/img-profileReview02.png');
+                        "
+                      ></div>
+                      <div class="name">
+                        류정원 파트너
+                        <div class="info">32세 여</div>
+                      </div>
+
+                      <p class="desc">
+                        최근에 여유 시간이 생겨 해주세요 앱을 통해 저희 동네
+                        아주머니가 아이들을 돌봐달라고 요청하셔서 방문했는데
+                        아이들이 온순하고 저를 잘 따라줘서 다음에 매칭이 돼도
+                        재밌게 잘 놀아줄 거 같아요
+                      </p>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="reviewbox">
+                      <div
+                        class="profile"
+                        style="
+                          background-image: url('../assets/img-profileReview03.png');
+                        "
+                      ></div>
+                      <div class="name">
+                        민광준 파트너
+                        <div class="info">58세 남</div>
+                      </div>
+
+                      <p class="desc">
+                        크고 무거운 짐을 옮겨야 하는 아주머니가 심부름을 요청해
+                        주셨는데 다행히 제가 크고 동네 주민이라 잘됐다 싶어 짐도
+                        실어드리고 아주머니도 목적지까지 모셔드린 적이 있습니다
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="web-section">
+          <div class="app-inner">
+            <div class="title">고객과 파트너 모두를 위한</div>
+            <div class="list-icons">
+              <ul>
+                <li>
+                  <img src="../assets/img-spc04.png" alt="" />
+                  <p class="desc">안심결제 시스템</p>
+                </li>
+
+                <li>
+                  <img src="../assets/img-spc05.png" alt="" />
+                  <p class="desc">안심 번호 제공</p>
+                </li>
+
+                <li>
+                  <img src="../assets/img-spc06.png" alt="" />
+                  <p class="desc">24시 고객센터 운영</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="web-section banner">
+          <div class="app-inner">
+            <div class="title">
+              지금 바로 이전에 없던<br />
+              편리함을 경험해 보세요
+            </div>
+            <div class="cupon-area">
+              <img src="../assets/img-cupon.png" alt="" class="icon" />
+              앱 다운로드 첫 이용 2,000원 쿠폰
+            </div>
+            <div class="button-group">
+              <a
+                href="javascript:void(0);"
+                onclick="goAppStore();"
+                class="btn-applecation pc"
+                target="_blank"
+                ><img
+                  src="../assets/btn-appStore-w.png"
+                  alt="앱 스토어에서 앱 다운로드"
+              /></a>
+
+              <a
+                href="javascript:void(0);"
+                onclick="goPlayStore();"
+                class="btn-applecation pc"
+                target="_blank"
+                ><img
+                  src="../assets/btn-googlePlay-w.png"
+                  alt="구글 스토어에서 앱 다운로드"
+              /></a>
+
+              <a
+                href="partnerapplication"
+                class="btn-applecation moNone blue arrow"
+              >
+                파트너 지원하기
+              </a>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <footer class="clientWeb-footer">
+        <div class="app-inner">
+          <div class="top">
+            <div class="logo type-footer">
+              <a href="/">
+                <div>대행의 모든것 해주세요</div>
+              </a>
+            </div>
+            <ul class="fnb">
+              <li>
+                <a href="mailto:contact@pleasehelp.co.kr"><b>제휴문의</b></a>
+              </li>
+              <li>
+                <a href="termsandconditions?terms1"
+                  ><b>개인 정보 수집 및 이용 동의</b></a
+                >
+              </li>
+              <li>
+                <a href="termsandconditions?terms2">개인 정보처리 방침</a>
+              </li>
+              <li>
+                <a href="termsandconditions?terms3">서비스 이용약관</a>
+              </li>
+              <li>
+                <a href="termsandconditions?terms4">위치기반서비스 이용약관</a>
+              </li>
+              <li>
+                <a href="termsandconditions?terms5">파트너 업무위수탁약관</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="bottom">
+            <ul class="address">
+              <li>(주)해주세요컴퍼니</li>
+              <li>대표 : 조현영</li>
+              <li>
+                대표 번호 : <a href="callto:02-6672-2365">02-6672-2365</a>
+              </li>
+              <li>
+                대표 메일 :
+                <a href="mailto:contact@pleasehelp.co.kr"
+                  >contact@pleasehelp.co.kr</a
+                >
+              </li>
+              <li>사업자등록번호 : 323-87-02009</li>
+              <li>통신판매번호 : 2021-서울서초-3177</li>
+              <li>서울특별시 서초구 과천대로 946</li>
+            </ul>
+            <small> ⓒ 2024 해주세요 All Rights Reserved. </small>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+
+  <script>
+    const pageTitle = null;
+  </script>
+</html>

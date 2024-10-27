@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>해주세요</title>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <meta name="title" content="해주세요" />
+    <meta name="format-detection" content="telephone=no" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/photoswipe.min.js"></script>
+    <script src="js/photoswipe-ui-default.min.js"></script>
+    <script src="js/scripts.v1.js"></script>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/photoswipe.min.css" />
+    <link rel="stylesheet" href="css/default-skin.min.css" />
+    <link rel="stylesheet" href="css/slick.min.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.v1.css" />
+  </head>
+
+  <body>
+    <div id="viewport">
+      <header class="header">
+        <div class="app-inner">
+          <div class="left">
+            <ul class="util">
+              <li>
+                <h1>
+                  <a href="A010101.html"><img src="img/logo.png" alt="" /></a>
+                </h1>
+              </li>
+              <li class="headerSearch">
+                <div class="global-search">
+                  <input
+                    type="text"
+                    name=""
+                    value=""
+                    placeholder="동네 심부름 또는 헬퍼를 검색해 보세요."
+                  />
+                  <a href="B010101.html" class="ico search">검색</a>
+                </div>
+                <div class="list-keyword mobileKeyword">
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <div class="keyword-img">
+                          <img src="img/categoryA.png" alt="" />
+                        </div>
+                        <span class="word">배달·장보기</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span class="word">배달·장보기</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <div class="keyword-img">
+                          <img src="img/categoryG.png" alt="" />
+                        </div>
+                        <span class="word">배달·장보기</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span class="word">배달·장보기</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="right">
+            <ul class="util">
+              <li>
+                <a
+                  href="javascript:void(0);"
+                  onclick="goAppStore();"
+                  class="btn-store"
+                  ><img src="img/app-store.png" alt=""
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="javascript:void(0);"
+                  onclick="goPlayStore();"
+                  class="btn-store"
+                  ><img src="img/google-play.png" alt=""
+                /></a>
+              </li>
+              <li class="mobileSearch">
+                <a href="javascript:void(0);" class="ico search"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <div class="container">
+        <div class="mobilecopy">
+          <section class="app-section">
+            <div class="app-inner">
+              <div class="profile-view">
+                <div class="list-user">
+                  <ul class="list-user-ul">
+                    <li class="list-user-li item-link">
+                      <div class="profile">
+                        <span
+                          class="img"
+                          style="
+                            background-image: url(https://files.beautycorn.ai/data.dev/doctor/f35f46d24a434503b2e2e4b3d00df338.jpg);
+                          "
+                        >
+                          <span class="status-mark online">온라인</span>
+                        </span>
+                      </div>
+                      <div class="infofile">
+                        <div class="tit grid-div">
+                          <div class="left">
+                            <span class="name">홍길동 헬퍼</span>
+                            <span class="side">32세·여</span>
+                          </div>
+                        </div>
+                        <div class="desc">
+                          신촌 1동 <em class="natural">1km</em>
+                        </div>
+                        <div class="individual-star">
+                          <div class="star-wrap">
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <span
+                              class="star"
+                              style="width: 60%"
+                              data-column-name="starWidth"
+                            >
+                              <i class="icon-star active"></i>
+                              <i class="icon-star active"></i>
+                              <i class="icon-star active"></i>
+                              <i class="icon-star active"></i>
+                              <i class="icon-star active"></i>
+                            </span>
+                          </div>
+                          <span class="score-val" data-column-name="evalPoint"
+                            >3.0</span
+                          >
+
+                          <span class="score-total"> 21 </span>
+                        </div>
+                        <ul class="lst-site" data-ele-name="txPart">
+                          <li>카테고리</li>
+                          <li>카테고리</li>
+                          <li class="hide">카테고리</li>
+                          <li class="hide">카테고리</li>
+                          <li class="hide">카테고리</li>
+                          <li class="more"></li>
+                        </ul>
+                        <ul class="lst-site line">
+                          <li>이동수단</li>
+                          <li>이동수단</li>
+                        </ul>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <div class="stickitem-ui">
+            <div class="stickitem-ui-inner">
+              <div class="list-tab">
+                <ul class="row">
+                  <li class="column on"><a href="A030101.html">소개</a></li>
+                  <li class="column"><a href="A030110.html">수행16</a></li>
+                  <li class="column"><a href="A030120.html">요청3</a></li>
+                  <li class="column"><a href="A030130.html">평가9</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <section class="app-section">
+            <div class="app-inner">
+              <p class="view-desc">
+                신촌에서 살고있어요! 벌레도 잘잡고,<br />
+                저녁심부름이면 언제든지 갈수있습다!!!
+              </p>
+
+              <div class="list-img-file">
+                <ul class="lst-tmb overflow-auto imgPosition">
+                  <li>
+                    <a href="img/profile-hospital.png"
+                      ><img class="img-fluid" src="img/profile.png" alt=""
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="img/profile-hospital.png"
+                      ><img class="img-fluid" src="img/profile.png" alt=""
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="img/profile-hospital.png"
+                      ><img class="img-fluid" src="img/profile.png" alt=""
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="img/profile-hospital.png"
+                      ><img class="img-fluid" src="img/profile.png" alt=""
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="img/profile-hospital.png"
+                      ><img class="img-fluid" src="img/profile.png" alt=""
+                    /></a>
+                  </li>
+                  <li>
+                    <a href="img/profile-hospital.png"
+                      ><img class="img-fluid" src="img/profile.png" alt=""
+                    /></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <section class="app-section">
+            <div class="app-inner">
+              <div class="app-title grid-div">
+                <div class="left">
+                  <h3 class="tit-lv1">심부름 가능분야</h3>
+                </div>
+              </div>
+              <div class="list-service">
+                <ul class="list-service-ul">
+                  <li class="list-service-li item-link">
+                    <div class="profile service">
+                      <span
+                        class="img"
+                        style="background-image: url(img/categoryA.png)"
+                      >
+                      </span>
+                    </div>
+                    <div class="infofile">
+                      <div class="tit grid-div">
+                        <div class="left">
+                          <span class="name">벌레잡기</span>
+                        </div>
+                      </div>
+                      <div class="desc">배민배달, 요기요배달</div>
+                    </div>
+                  </li>
+                  <li class="list-service-li item-link">
+                    <div class="profile service">
+                      <span
+                        class="img"
+                        style="background-image: url(img/categoryA.png)"
+                      >
+                      </span>
+                    </div>
+                    <div class="infofile">
+                      <div class="tit grid-div">
+                        <div class="left">
+                          <span class="name">벌레잡기</span>
+                        </div>
+                      </div>
+                      <div class="desc">배민배달, 요기요배달</div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <section class="app-section">
+            <div class="app-inner">
+              <div class="app-title grid-div">
+                <div class="left">
+                  <h3 class="tit-lv1">기본정보</h3>
+                </div>
+              </div>
+              <ul class="list-infomation">
+                <li>
+                  <dl>
+                    <dt><b>총 심부름 수</b> <em>(팁 받은 수 10회)</em></dt>
+                    <dd><b>111회</b></dd>
+                  </dl>
+                </li>
+                <li>
+                  <dl>
+                    <dt><b>총 요청 수</b> <em>(팁 보낸 수 10회)</em></dt>
+                    <dd><b>111회</b></dd>
+                  </dl>
+                </li>
+                <li>
+                  <dl>
+                    <dt>
+                      <b>재이용희망율</b> <em>(1000번 중 784명이 만족)</em>
+                    </dt>
+                    <dd><b>99%</b></dd>
+                  </dl>
+                </li>
+                <li>
+                  <dl>
+                    <dt><b>응답률</b> <em>(평균 10분 이내 응답)</em></dt>
+                    <dd><b>99%</b></dd>
+                  </dl>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="app-section">
+            <div class="app-inner">
+              <div class="app-title grid-div">
+                <div class="left">
+                  <h3 class="tit-lv1">자격증</h3>
+                </div>
+              </div>
+              <ul class="list-infomation">
+                <li>
+                  <dl>
+                    <dt class="certifi">운전면허 1종 보통 (서울지방결찰청)</dt>
+                    <dd><em class="gray">2020.2</em></dd>
+                  </dl>
+                </li>
+                <li>
+                  <dl>
+                    <dt>운전면허 1종 보통 (서울지방결찰청)</dt>
+                    <dd><em class="gray">2020.2</em></dd>
+                  </dl>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="app-section">
+            <div class="app-inner">
+              <div class="app-title grid-div">
+                <div class="left">
+                  <h3 class="tit-lv1">관심사</h3>
+                </div>
+              </div>
+              <ul class="lst-site line">
+                <li>한식요리 • 3개월</li>
+                <li>한식요리 • 3개월</li>
+                <li>한식요리 • 3개월</li>
+                <li>한식요리 • 3개월</li>
+                <li>한식요리 • 3개월</li>
+                <li>한식요리 • 3개월</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+      </div>
+      <footer>
+        <div class="app-inner">
+          <div class="fnb">
+            <ul>
+              <li class="logo">
+                <a href="#"><img src="img/logo-footer.png" alt="" /></a>
+              </li>
+              <li><a href="#">서비스 이용약관</a></li>
+              <li>
+                <a href="#"
+                  ><b><em class="positive">개인정보취급방침</em></b></a
+                >
+              </li>
+              <li><a href="#">위치기반서비스 이용약관</a></li>
+            </ul>
+          </div>
+          <div class="address">
+            <ul>
+              <li>(주)하이퍼로컬</li>
+              <li>서울시 서초구 과천대로 946</li>
+              <li>사업자 등록번호 : 323-87-02009</li>
+            </ul>
+          </div>
+          <small class="copyright">
+            Copyright © 2021 해주세요. All rights reserved.
+          </small>
+        </div>
+      </footer>
+
+      <!-- image viewer -->
+      <div
+        id="pswp"
+        class="pswp"
+        tabindex="-1"
+        role="dialog"
+        aria-hidden="true"
+      >
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+          <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+          </div>
+          <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+              <div class="pswp__counter"></div>
+              <button
+                class="pswp__button pswp__button--close"
+                title="Close (Esc)"
+              ></button>
+              <button
+                class="pswp__button pswp__button--zoom"
+                title="Zoom"
+              ></button>
+              <div class="pswp__preloader">
+                <div class="pswp__preloader__icn">
+                  <div class="pswp__preloader__cut">
+                    <div class="pswp__preloader__donut"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="pswp__button pswp__button--arrow--left"
+              title="Previous"
+            ></button>
+            <button
+              class="pswp__button pswp__button--arrow--right"
+              title="Next"
+            ></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      $(window)
+        .on("scroll", function () {
+          var $body = $("body");
+          var pos = $(this).scrollTop();
+          if ($(".stickitem-ui-inner").length) {
+            pos > $(".stickitem-ui-inner").offset().top
+              ? $body.addClass("nav-fix")
+              : $body.removeClass("nav-fix");
+          }
+        })
+        .trigger("scroll");
+    </script>
+  </body>
+</html>

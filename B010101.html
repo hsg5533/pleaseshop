@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>해주세요</title>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <meta name="title" content="해주세요" />
+    <meta name="format-detection" content="telephone=no" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/photoswipe.min.js"></script>
+    <script src="js/photoswipe-ui-default.min.js"></script>
+    <script src="js/scripts.v1.js"></script>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/photoswipe.min.css" />
+    <link rel="stylesheet" href="css/default-skin.min.css" />
+    <link rel="stylesheet" href="css/slick.min.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.v1.css" />
+  </head>
+
+  <body>
+    <div id="viewport">
+      <header class="header">
+        <div class="app-inner">
+          <div class="left">
+            <ul class="util">
+              <li>
+                <h1>
+                  <a href="A010101.html"><img src="img/logo.png" alt="" /></a>
+                </h1>
+              </li>
+              <li class="headerSearch">
+                <div class="global-search">
+                  <input
+                    type="text"
+                    name=""
+                    value=""
+                    placeholder="동네 심부름 또는 헬퍼를 검색해 보세요."
+                  />
+                  <a href="B010101.html" class="ico search">검색</a>
+                </div>
+                <div class="list-keyword mobileKeyword">
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <div class="keyword-img">
+                          <img src="img/categoryA.png" alt="" />
+                        </div>
+                        <span class="word">배달·장보기</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span class="word">배달·장보기</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <div class="keyword-img">
+                          <img src="img/categoryG.png" alt="" />
+                        </div>
+                        <span class="word">배달·장보기</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span class="word">배달·장보기</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="right">
+            <ul class="util">
+              <li>
+                <a
+                  href="javascript:void(0);"
+                  onclick="goAppStore();"
+                  class="btn-store"
+                  ><img src="img/app-store.png" alt=""
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="javascript:void(0);"
+                  onclick="goPlayStore();"
+                  class="btn-store"
+                  ><img src="img/google-play.png" alt=""
+                /></a>
+              </li>
+              <li class="mobileSearch">
+                <a href="javascript:void(0);" class="ico search"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <div class="container">
+        <section class="app-section search">
+          <div class="global-search">
+            <input
+              type="text"
+              name=""
+              value=""
+              placeholder="검색어를 입력해주세요."
+            />
+            <a href="#" class="ico search">검색</a>
+          </div>
+          <div class="list-keyword">
+            <ul>
+              <li>
+                <a href="#">
+                  <div class="keyword-img">
+                    <img src="img/categoryA.png" alt="" />
+                  </div>
+                  <span class="word">배달·장보기</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="word">배달·장보기</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <div class="keyword-img">
+                    <img src="img/categoryG.png" alt="" />
+                  </div>
+                  <span class="word">배달·장보기</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="word">배달·장보기</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="app-section list first-cont">
+          <div class="app-inner">
+            <div class="app-cont noline">
+              <div class="app-title grid-div">
+                <div class="left">
+                  <h3 class="tit-lv1">
+                    <em class="gray">우리 동네</em> 심부름 요청
+                  </h3>
+                </div>
+              </div>
+              <div class="list-default">
+                <ul class="list-default-ul">
+                  <li class="list-default-li">
+                    <a class="list-default-link" href="A040103.html">
+                      <div class="statusfile">
+                        <div class="profile service">
+                          <span
+                            class="img"
+                            style="background-image: url(img/categoryA.png)"
+                          >
+                          </span>
+                        </div>
+                        <p class="countInfo">300m</p>
+                      </div>
+                      <div class="infofile">
+                        <span class="help">
+                          합정역 쌀국수 맛집 배달 해주세요!합정역 쌀국수 맛집
+                          배달 해주세요!
+                        </span>
+                        <div class="tit">
+                          <span class="name">20,000원</span>
+                        </div>
+                        <div class="desc">
+                          <em class="nagetive">지금 바로</em>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="list-default-li">
+                    <a class="list-default-link" href="A040103.html">
+                      <div class="statusfile">
+                        <div class="profile service">
+                          <span
+                            class="img"
+                            style="background-image: url(img/categoryG.png)"
+                          >
+                          </span>
+                        </div>
+                        <p class="countInfo">300m</p>
+                      </div>
+                      <div class="infofile">
+                        <span class="help">
+                          합정역 쌀국수 맛집 배달 해주세요!합정역 쌀국수 맛집
+                          배달 해주세요!
+                        </span>
+                        <div class="tit">
+                          <span class="name">20,000원</span>
+                        </div>
+                        <div class="desc">
+                          <em class="nagetive">지금 바로</em>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="list-default-li">
+                    <a class="list-default-link" href="A040103.html">
+                      <div class="statusfile">
+                        <div class="profile service">
+                          <span
+                            class="img"
+                            style="background-image: url(img/categoryA.png)"
+                          >
+                          </span>
+                        </div>
+                        <p class="countInfo">300m</p>
+                      </div>
+                      <div class="infofile">
+                        <span class="help">
+                          합정역 쌀국수 맛집 배달 해주세요!합정역 쌀국수 맛집
+                          배달 해주세요!
+                        </span>
+                        <div class="tit">
+                          <span class="name">20,000원</span>
+                        </div>
+                        <div class="desc">
+                          <em class="nagetive">지금 바로</em>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="list-default-li">
+                    <a class="list-default-link" href="A040103.html">
+                      <div class="statusfile">
+                        <div class="profile service">
+                          <span
+                            class="img"
+                            style="background-image: url(img/categoryG.png)"
+                          >
+                          </span>
+                        </div>
+                        <p class="countInfo">300m</p>
+                      </div>
+                      <div class="infofile">
+                        <span class="help">
+                          합정역 쌀국수 맛집 배달 해주세요!합정역 쌀국수 맛집
+                          배달 해주세요!
+                        </span>
+                        <div class="tit">
+                          <span class="name">20,000원</span>
+                        </div>
+                        <div class="desc">
+                          <em class="nagetive">지금 바로</em>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="list-default-li">
+                    <a class="list-default-link" href="A040103.html">
+                      <div class="statusfile">
+                        <div class="profile service">
+                          <span
+                            class="img"
+                            style="background-image: url(img/categoryA.png)"
+                          >
+                          </span>
+                        </div>
+                        <p class="countInfo">300m</p>
+                      </div>
+                      <div class="infofile">
+                        <span class="help">
+                          합정역 쌀국수 맛집 배달 해주세요!합정역 쌀국수 맛집
+                          배달 해주세요!
+                        </span>
+                        <div class="tit">
+                          <span class="name">20,000원</span>
+                        </div>
+                        <div class="desc">
+                          <em class="nagetive">지금 바로</em>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="list-default-li">
+                    <a class="list-default-link" href="A040103.html">
+                      <div class="statusfile">
+                        <div class="profile service">
+                          <span
+                            class="img"
+                            style="background-image: url(img/categoryG.png)"
+                          >
+                          </span>
+                        </div>
+                        <p class="countInfo">300m</p>
+                      </div>
+                      <div class="infofile">
+                        <span class="help">
+                          합정역 쌀국수 맛집 배달 해주세요!합정역 쌀국수 맛집
+                          배달 해주세요!
+                        </span>
+                        <div class="tit">
+                          <span class="name">20,000원</span>
+                        </div>
+                        <div class="desc">
+                          <em class="nagetive">지금 바로</em>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="list-default-li">
+                    <a class="list-default-link" href="A040103.html">
+                      <div class="statusfile">
+                        <div class="profile service">
+                          <span
+                            class="img"
+                            style="background-image: url(img/categoryA.png)"
+                          >
+                          </span>
+                        </div>
+                        <p class="countInfo">300m</p>
+                      </div>
+                      <div class="infofile">
+                        <span class="help">
+                          합정역 쌀국수 맛집 배달 해주세요!합정역 쌀국수 맛집
+                          배달 해주세요!
+                        </span>
+                        <div class="tit">
+                          <span class="name">20,000원</span>
+                        </div>
+                        <div class="desc">
+                          <em class="nagetive">지금 바로</em>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="list-default-li">
+                    <a class="list-default-link" href="A040103.html">
+                      <div class="statusfile">
+                        <div class="profile service">
+                          <span
+                            class="img"
+                            style="background-image: url(img/categoryG.png)"
+                          >
+                          </span>
+                        </div>
+                        <p class="countInfo">300m</p>
+                      </div>
+                      <div class="infofile">
+                        <span class="help">
+                          합정역 쌀국수 맛집 배달 해주세요!합정역 쌀국수 맛집
+                          배달 해주세요!
+                        </span>
+                        <div class="tit">
+                          <span class="name">20,000원</span>
+                        </div>
+                        <div class="desc">
+                          <em class="nagetive">지금 바로</em>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="more-btn">
+                <a href="#" class="btn">더보기</a>
+              </div>
+            </div>
+
+            <div class="app-cont noline">
+              <div class="app-title grid-div">
+                <div class="left">
+                  <h3 class="tit-lv1"><em class="gray">우리 동네</em> 헬퍼</h3>
+                </div>
+              </div>
+              <div class="list-default">
+                <ul class="list-default-ul">
+                  <li class="list-default-li">
+                    <a class="list-default-link" href="A030101.html">
+                      <div class="statusfile">
+                        <div class="profile">
+                          <span
+                            class="img"
+                            style="
+                              background-image: url(https://files.beautycorn.ai/data.dev/doctor/f35f46d24a434503b2e2e4b3d00df338.jpg);
+                            "
+                          ></span>
+                        </div>
+                        <p class="countInfo">300m</p>
+                      </div>
+                      <div class="infofile">
+                        <div class="tit">
+                          <span class="name">홍길동 헬퍼</span>
+                          <span class="side">32세·여</span>
+                        </div>
+                        <div class="individual-star">
+                          <div class="star-wrap">
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <span
+                              class="star"
+                              style="width: 60%"
+                              data-column-name="starWidth"
+                            >
+                              <i class="icon-star active"></i>
+                              <i class="icon-star active"></i>
+                              <i class="icon-star active"></i>
+                              <i class="icon-star active"></i>
+                              <i class="icon-star active"></i>
+                            </span>
+                          </div>
+                          <span class="score-val" data-column-name="evalPoint"
+                            >3.0</span
+                          >
+                        </div>
+                        <ul class="lst-site" data-ele-name="txPart">
+                          <li>카테고리</li>
+                          <li>카테고리</li>
+                          <li class="hide">카테고리</li>
+                          <li class="hide">카테고리</li>
+                          <li class="hide">카테고리</li>
+                          <li class="more"></li>
+                        </ul>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="list-default-li">
+                    <a class="list-default-link" href="A030101.html">
+                      <div class="statusfile">
+                        <div class="profile">
+                          <span
+                            class="img"
+                            style="
+                              background-image: url(img/human-default-null.png);
+                            "
+                          >
+                          </span>
+                        </div>
+                        <p class="countInfo">300m</p>
+                      </div>
+                      <div class="infofile">
+                        <div class="tit">
+                          <span class="name">홍길동 헬퍼</span>
+                          <span class="side">32세·여</span>
+                        </div>
+                        <div class="individual-star">
+                          <div class="star-wrap">
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <span
+                              class="star"
+                              style="width: 60%"
+                              data-column-name="starWidth"
+                            >
+                              <i class="icon-star active"></i>
+                              <i class="icon-star active"></i>
+                              <i class="icon-star active"></i>
+                              <i class="icon-star active"></i>
+                              <i class="icon-star active"></i>
+                            </span>
+                          </div>
+                          <span class="score-val" data-column-name="evalPoint"
+                            >3.0</span
+                          >
+                        </div>
+                        <ul class="lst-site" data-ele-name="txPart">
+                          <li>카테고리</li>
+                          <li>카테고리</li>
+                          <li class="hide">카테고리</li>
+                          <li class="hide">카테고리</li>
+                          <li class="hide">카테고리</li>
+                          <li class="more"></li>
+                        </ul>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="list-default-li">
+                    <a class="list-default-link" href="A030101.html">
+                      <div class="statusfile">
+                        <div class="profile">
+                          <span
+                            class="img"
+                            style="
+                              background-image: url(https://files.beautycorn.ai/data.dev/doctor/f35f46d24a434503b2e2e4b3d00df338.jpg);
+                            "
+                          ></span>
+                        </div>
+                        <p class="countInfo">300m</p>
+                      </div>
+                      <div class="infofile">
+                        <div class="tit">
+                          <span class="name">홍길동 헬퍼</span>
+                          <span class="side">32세·여</span>
+                        </div>
+                        <div class="individual-star">
+                          <div class="star-wrap">
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <span
+                              class="star"
+                              style="width: 60%"
+                              data-column-name="starWidth"
+                            >
+                              <i class="icon-star active"></i>
+                              <i class="icon-star active"></i>
+                              <i class="icon-star active"></i>
+                              <i class="icon-star active"></i>
+                              <i class="icon-star active"></i>
+                            </span>
+                          </div>
+                          <span class="score-val" data-column-name="evalPoint"
+                            >3.0</span
+                          >
+                        </div>
+                        <ul class="lst-site" data-ele-name="txPart">
+                          <li>카테고리</li>
+                          <li>카테고리</li>
+                          <li class="hide">카테고리</li>
+                          <li class="hide">카테고리</li>
+                          <li class="hide">카테고리</li>
+                          <li class="more"></li>
+                        </ul>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="list-default-li">
+                    <a class="list-default-link" href="A030101.html">
+                      <div class="statusfile">
+                        <div class="profile">
+                          <span
+                            class="img"
+                            style="
+                              background-image: url(img/human-default-null.png);
+                            "
+                          >
+                          </span>
+                        </div>
+                        <p class="countInfo">300m</p>
+                      </div>
+                      <div class="infofile">
+                        <div class="tit">
+                          <span class="name">홍길동 헬퍼</span>
+                          <span class="side">32세·여</span>
+                        </div>
+                        <div class="individual-star">
+                          <div class="star-wrap">
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <span
+                              class="star"
+                              style="width: 60%"
+                              data-column-name="starWidth"
+                            >
+                              <i class="icon-star active"></i>
+                              <i class="icon-star active"></i>
+                              <i class="icon-star active"></i>
+                              <i class="icon-star active"></i>
+                              <i class="icon-star active"></i>
+                            </span>
+                          </div>
+                          <span class="score-val" data-column-name="evalPoint"
+                            >3.0</span
+                          >
+                        </div>
+                        <ul class="lst-site" data-ele-name="txPart">
+                          <li>카테고리</li>
+                          <li>카테고리</li>
+                          <li class="hide">카테고리</li>
+                          <li class="hide">카테고리</li>
+                          <li class="hide">카테고리</li>
+                          <li class="more"></li>
+                        </ul>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="list-default-li">
+                    <a class="list-default-link" href="A030101.html">
+                      <div class="statusfile">
+                        <div class="profile">
+                          <span
+                            class="img"
+                            style="
+                              background-image: url(https://files.beautycorn.ai/data.dev/doctor/f35f46d24a434503b2e2e4b3d00df338.jpg);
+                            "
+                          ></span>
+                        </div>
+                        <p class="countInfo">300m</p>
+                      </div>
+                      <div class="infofile">
+                        <div class="tit">
+                          <span class="name">홍길동 헬퍼</span>
+                          <span class="side">32세·여</span>
+                        </div>
+                        <div class="individual-star">
+                          <div class="star-wrap">
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <span
+                              class="star"
+                              style="width: 60%"
+                              data-column-name="starWidth"
+                            >
+                              <i class="icon-star active"></i>
+                              <i class="icon-star active"></i>
+                              <i class="icon-star active"></i>
+                              <i class="icon-star active"></i>
+                              <i class="icon-star active"></i>
+                            </span>
+                          </div>
+                          <span class="score-val" data-column-name="evalPoint"
+                            >3.0</span
+                          >
+                        </div>
+                        <ul class="lst-site" data-ele-name="txPart">
+                          <li>카테고리</li>
+                          <li>카테고리</li>
+                          <li class="hide">카테고리</li>
+                          <li class="hide">카테고리</li>
+                          <li class="hide">카테고리</li>
+                          <li class="more"></li>
+                        </ul>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="list-default-li">
+                    <a class="list-default-link" href="A030101.html">
+                      <div class="statusfile">
+                        <div class="profile">
+                          <span
+                            class="img"
+                            style="
+                              background-image: url(img/human-default-null.png);
+                            "
+                          >
+                          </span>
+                        </div>
+                        <p class="countInfo">300m</p>
+                      </div>
+                      <div class="infofile">
+                        <div class="tit">
+                          <span class="name">홍길동 헬퍼</span>
+                          <span class="side">32세·여</span>
+                        </div>
+                        <div class="individual-star">
+                          <div class="star-wrap">
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <span
+                              class="star"
+                              style="width: 60%"
+                              data-column-name="starWidth"
+                            >
+                              <i class="icon-star active"></i>
+                              <i class="icon-star active"></i>
+                              <i class="icon-star active"></i>
+                              <i class="icon-star active"></i>
+                              <i class="icon-star active"></i>
+                            </span>
+                          </div>
+                          <span class="score-val" data-column-name="evalPoint"
+                            >3.0</span
+                          >
+                        </div>
+                        <ul class="lst-site" data-ele-name="txPart">
+                          <li>카테고리</li>
+                          <li>카테고리</li>
+                          <li class="hide">카테고리</li>
+                          <li class="hide">카테고리</li>
+                          <li class="hide">카테고리</li>
+                          <li class="more"></li>
+                        </ul>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="list-default-li">
+                    <a class="list-default-link" href="A030101.html">
+                      <div class="statusfile">
+                        <div class="profile">
+                          <span
+                            class="img"
+                            style="
+                              background-image: url(https://files.beautycorn.ai/data.dev/doctor/f35f46d24a434503b2e2e4b3d00df338.jpg);
+                            "
+                          ></span>
+                        </div>
+                        <p class="countInfo">300m</p>
+                      </div>
+                      <div class="infofile">
+                        <div class="tit">
+                          <span class="name">홍길동 헬퍼</span>
+                          <span class="side">32세·여</span>
+                        </div>
+                        <div class="individual-star">
+                          <div class="star-wrap">
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <span
+                              class="star"
+                              style="width: 60%"
+                              data-column-name="starWidth"
+                            >
+                              <i class="icon-star active"></i>
+                              <i class="icon-star active"></i>
+                              <i class="icon-star active"></i>
+                              <i class="icon-star active"></i>
+                              <i class="icon-star active"></i>
+                            </span>
+                          </div>
+                          <span class="score-val" data-column-name="evalPoint"
+                            >3.0</span
+                          >
+                        </div>
+                        <ul class="lst-site" data-ele-name="txPart">
+                          <li>카테고리</li>
+                          <li>카테고리</li>
+                          <li class="hide">카테고리</li>
+                          <li class="hide">카테고리</li>
+                          <li class="hide">카테고리</li>
+                          <li class="more"></li>
+                        </ul>
+                      </div>
+                    </a>
+                  </li>
+
+                  <li class="list-default-li">
+                    <a class="list-default-link" href="A030101.html">
+                      <div class="statusfile">
+                        <div class="profile">
+                          <span
+                            class="img"
+                            style="
+                              background-image: url(img/human-default-null.png);
+                            "
+                          >
+                          </span>
+                        </div>
+                        <p class="countInfo">300m</p>
+                      </div>
+                      <div class="infofile">
+                        <div class="tit">
+                          <span class="name">홍길동 헬퍼</span>
+                          <span class="side">32세·여</span>
+                        </div>
+                        <div class="individual-star">
+                          <div class="star-wrap">
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <i class="icon-star"></i>
+                            <span
+                              class="star"
+                              style="width: 60%"
+                              data-column-name="starWidth"
+                            >
+                              <i class="icon-star active"></i>
+                              <i class="icon-star active"></i>
+                              <i class="icon-star active"></i>
+                              <i class="icon-star active"></i>
+                              <i class="icon-star active"></i>
+                            </span>
+                          </div>
+                          <span class="score-val" data-column-name="evalPoint"
+                            >3.0</span
+                          >
+                        </div>
+                        <ul class="lst-site" data-ele-name="txPart">
+                          <li>카테고리</li>
+                          <li>카테고리</li>
+                          <li class="hide">카테고리</li>
+                          <li class="hide">카테고리</li>
+                          <li class="hide">카테고리</li>
+                          <li class="more"></li>
+                        </ul>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="more-btn">
+                <a href="#" class="btn">더보기</a>
+              </div>
+            </div>
+
+            <div class="app-cont noline">
+              <div class="copy">
+                <img class="copyImg" src="img/logo-symbol-error.png" alt="" />
+                <h2 class="tit reco">
+                  <em class="positive">{ㅇㅇ}</em> 에 대한 검색 결과가 없습니다
+                </h2>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer>
+        <div class="app-inner">
+          <div class="fnb">
+            <ul>
+              <li class="logo">
+                <a href="#"><img src="img/logo-footer.png" alt="" /></a>
+              </li>
+              <li><a href="#">서비스 이용약관</a></li>
+              <li>
+                <a href="#"
+                  ><b><em class="positive">개인정보취급방침</em></b></a
+                >
+              </li>
+              <li><a href="#">위치기반서비스 이용약관</a></li>
+            </ul>
+          </div>
+          <div class="address">
+            <ul>
+              <li>(주)하이퍼로컬</li>
+              <li>서울시 서초구 과천대로 946</li>
+              <li>사업자 등록번호 : 323-87-02009</li>
+            </ul>
+          </div>
+          <small class="copyright">
+            Copyright © 2021 해주세요. All rights reserved.
+          </small>
+        </div>
+      </footer>
+    </div>
+    <script>
+      var topSearchEl = $("header .util .global-search");
+      $(document).ready(function () {
+        topSearchEl.hide();
+      });
+      $(window)
+        .on("scroll", function () {
+          var scrollTop = $(window).scrollTop();
+          var scrollBottom = scrollTop + $(window).height();
+          var elMoveOffset = $(".first-cont").offset().top;
+
+          if (scrollTop > elMoveOffset) {
+            topSearchEl.show();
+          } else {
+            topSearchEl.hide();
+          }
+        })
+        .trigger("scroll");
+    </script>
+  </body>
+</html>

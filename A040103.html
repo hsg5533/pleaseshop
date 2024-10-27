@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <title>해주세요</title>
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <meta name="title" content="해주세요" />
+    <meta name="format-detection" content="telephone=no" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/photoswipe.min.js"></script>
+    <script src="js/photoswipe-ui-default.min.js"></script>
+    <script src="js/scripts.v1.js"></script>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/photoswipe.min.css" />
+    <link rel="stylesheet" href="css/default-skin.min.css" />
+    <link rel="stylesheet" href="css/slick.min.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.v1.css" />
+  </head>
+
+  <body>
+    <div id="viewport">
+      <header class="header">
+        <div class="app-inner">
+          <div class="left">
+            <ul class="util">
+              <li>
+                <h1>
+                  <a href="A010101.html"><img src="img/logo.png" alt="" /></a>
+                </h1>
+              </li>
+              <li class="headerSearch">
+                <div class="global-search">
+                  <input
+                    type="text"
+                    name=""
+                    value=""
+                    placeholder="동네 심부름 또는 헬퍼를 검색해 보세요."
+                  />
+                  <a href="B010101.html" class="ico search">검색</a>
+                </div>
+                <div class="list-keyword mobileKeyword">
+                  <ul>
+                    <li>
+                      <a href="#">
+                        <div class="keyword-img">
+                          <img src="img/categoryA.png" alt="" />
+                        </div>
+                        <span class="word">배달·장보기</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span class="word">배달·장보기</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <div class="keyword-img">
+                          <img src="img/categoryG.png" alt="" />
+                        </div>
+                        <span class="word">배달·장보기</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <span class="word">배달·장보기</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="right">
+            <ul class="util">
+              <li>
+                <a
+                  href="javascript:void(0);"
+                  onclick="goAppStore();"
+                  class="btn-store"
+                  ><img src="img/app-store.png" alt=""
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="javascript:void(0);"
+                  onclick="goPlayStore();"
+                  class="btn-store"
+                  ><img src="img/google-play.png" alt=""
+                /></a>
+              </li>
+              <li class="mobileSearch">
+                <a href="javascript:void(0);" class="ico search"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+
+      <div class="container">
+        <div class="mobilecopy">
+          <section class="app-section tight">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3164.010876942266!2d126.99400085126403!3d37.53124087970545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca235469c9b9b%3A0xdd964f64f3ce3c4b!2z7ISc7Jq47Yq567OE7IucIOyaqeyCsOq1rCDsnbTtg5zsm5Drj5kgMjAtODQ!5e0!3m2!1sko!2skr!4v1615287640893!5m2!1sko!2skr"
+              loading="lazy"
+              style="width: 100%; height: 198px"
+            ></iframe>
+          </section>
+
+          <section class="app-section noline">
+            <div class="app-inner">
+              <div class="main-view">
+                <ul class="lst-site">
+                  <li>카테고리</li>
+                  <li class="depth">소카테고리</li>
+                </ul>
+                <div class="tit">합정역 스시맛집 주문</div>
+                <!-- <div class="price">20,000원</div> -->
+              </div>
+              <ul class="list-view">
+                <li class="list-view-item">
+                  <dl class="info-dl">
+                    <dt>심부름 비</dt>
+                    <dd>
+                      <div class="price"><b>20,000원</b></div>
+                    </dd>
+                  </dl>
+                </li>
+                <li class="list-view-item">
+                  <dl class="info-dl">
+                    <dt>일시</dt>
+                    <dd>
+                      <em class="nagetive"><b>지금바로</b></em>
+                      <em class="gray">(예상소요시간 30분)</em>
+                    </dd>
+                  </dl>
+                </li>
+                <li class="list-view-item">
+                  <!-- <dl class="info-dl">
+									<dt>장소</dt>
+									<dd><em class="gray">서울 서초구 사임당로<br />123, 102동 102호</em></dd>
+								</dl> -->
+                  <div class="input-item">
+                    <label for="#" class="like-label"><b>장소</b></label>
+
+                    <div class="input-item-inner">
+                      <div class="input-item tight map">
+                        <div class="input-item-inner">
+                          <div class="input">
+                            <span class="nametag">경유지 1.</span>
+                            <input
+                              type="text"
+                              name=""
+                              value="창천동 123, CU편의점"
+                              readonly
+                            />
+                          </div>
+
+                          <input
+                            type="text"
+                            class="detail-address-ipt"
+                            name=""
+                            value="상세주소~~~"
+                            readonly
+                          />
+                          <span class="desc"
+                            >버거킹에서 와퍼 세트 1개버거킹에서 와퍼 세트
+                            1개버거킹 5처넌</span
+                          >
+                        </div>
+                        <div class="input-item-inner">
+                          <div class="input">
+                            <span class="nametag">경유지 2.</span>
+                            <input
+                              type="text"
+                              name=""
+                              value="창천동 123, CU편의점"
+                              readonly
+                            />
+                          </div>
+                          <input
+                            type="text"
+                            class="detail-address-ipt"
+                            name=""
+                            value="상세주소~~~"
+                            readonly
+                          />
+                          <input
+                            type="text"
+                            name=""
+                            placeholder="심부름 설명추가"
+                          />
+                          <input type="text" name="" placeholder="금액입력" />
+                        </div>
+                        <div class="input-item-inner">
+                          <div class="input">
+                            <span class="nametag">경유지 3.</span>
+                            <input
+                              type="text"
+                              name=""
+                              value="창천동 123, CU편의점"
+                              readonly
+                            />
+                          </div>
+                          <input
+                            type="text"
+                            class="detail-address-ipt"
+                            name=""
+                            value="상세주소~~~"
+                            readonly
+                          />
+                          <span class="desc">카스 맥주</span>
+                          <span class="desc"><b>4,500원</b></span>
+                        </div>
+                        <div class="input-item-inner">
+                          <div class="input">
+                            <span class="nametag">도착지.</span>
+                            <input
+                              type="text"
+                              name=""
+                              value="창천동 123, CU편의점"
+                              readonly
+                            />
+                          </div>
+                          <input
+                            type="text"
+                            class="detail-address-ipt"
+                            name=""
+                            value="상세주소~~~"
+                            readonly
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- <a href="#" class="ico map">장소보기</a> -->
+                </li>
+
+                <li class="list-view-item">
+                  <p class="view-desc">
+                    합정역 5번출구에 스시집이 있는데 웨이팅이 좀 길어요 조금
+                    기다려주시고 포장배달해주실분찾습니다 주문을 해둘게요!!
+                    합정역 5번출구에 스시집이 있는데 웨이팅이 좀 길어요 조금
+                    기다려주시고 포장배달해주실분찾습니다 주문을 해둘게요!!
+                  </p>
+                </li>
+
+                <li>
+                  <div class="swiper-container swiper-bnr">
+                    <ul class="swiper-wrapper">
+                      <li class="swiper-slide">
+                        <img src="img/img-default.png" alt="" />
+                      </li>
+                      <li class="swiper-slide">
+                        <img src="img/img-default.png" alt="" />
+                      </li>
+                      <li class="swiper-slide">
+                        <img src="img/img-default.png" alt="" />
+                      </li>
+                    </ul>
+                    <div class="swiper-pagination"></div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+          <section class="app-section">
+            <div class="app-inner">
+              <div class="list-user">
+                <ul class="list-user-ul">
+                  <li class="list-user-li item-link">
+                    <div class="profile">
+                      <span
+                        class="img"
+                        style="
+                          background-image: url(https://files.beautycorn.ai/data.dev/doctor/f35f46d24a434503b2e2e4b3d00df338.jpg);
+                        "
+                      >
+                        <span class="status-mark online">온라인</span>
+                      </span>
+                    </div>
+                    <div class="infofile">
+                      <span class="ico link infofile-arr">보기</span>
+                      <div class="tit grid-div">
+                        <div class="left">
+                          <span class="name">홍길동 헬퍼</span>
+                          <span class="side">32세·여</span>
+                        </div>
+                      </div>
+                      <div class="desc">신촌 1동</div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <div class="guideline">
+            <p class="txt-guide">고객이 승인하면 취소가 불가합니다.</p>
+            <a href="#" class="btn-text">취소/환불 정책</a>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="app-inner">
+          <div class="fnb">
+            <ul>
+              <li class="logo">
+                <a href="#"><img src="img/logo-footer.png" alt="" /></a>
+              </li>
+              <li><a href="#">서비스 이용약관</a></li>
+              <li>
+                <a href="#"
+                  ><b><em class="positive">개인정보취급방침</em></b></a
+                >
+              </li>
+              <li><a href="#">위치기반서비스 이용약관</a></li>
+            </ul>
+          </div>
+          <div class="address">
+            <ul>
+              <li>(주)하이퍼로컬</li>
+              <li>서울시 서초구 과천대로 946</li>
+              <li>사업자 등록번호 : 323-87-02009</li>
+            </ul>
+          </div>
+          <small class="copyright">
+            Copyright © 2021 해주세요. All rights reserved.
+          </small>
+        </div>
+      </footer>
+
+      <!-- image viewer -->
+      <div
+        id="pswp"
+        class="pswp"
+        tabindex="-1"
+        role="dialog"
+        aria-hidden="true"
+      >
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+          <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+          </div>
+          <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+              <div class="pswp__counter"></div>
+              <button
+                class="pswp__button pswp__button--close"
+                title="Close (Esc)"
+              ></button>
+              <button
+                class="pswp__button pswp__button--zoom"
+                title="Zoom"
+              ></button>
+              <div class="pswp__preloader">
+                <div class="pswp__preloader__icn">
+                  <div class="pswp__preloader__cut">
+                    <div class="pswp__preloader__donut"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="pswp__button pswp__button--arrow--left"
+              title="Previous"
+            ></button>
+            <button
+              class="pswp__button pswp__button--arrow--right"
+              title="Next"
+            ></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      $(window)
+        .on("scroll", function () {
+          var $body = $("body");
+          var pos = $(this).scrollTop();
+          if ($(".stickitem-ui-inner").length) {
+            pos > $(".stickitem-ui-inner").offset().top
+              ? $body.addClass("nav-fix")
+              : $body.removeClass("nav-fix");
+          }
+        })
+        .trigger("scroll");
+    </script>
+  </body>
+</html>
