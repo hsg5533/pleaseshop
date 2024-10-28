@@ -878,7 +878,7 @@ function executeOnLoad() {
       var $emoji = $(this).find(".arrow img"); // 이미지 파일명 랜덤 선택
       var randomImageNumber = Math.floor(Math.random() * 9) + 1;
       var randomImagePath =
-        "../assets/emoji-positive-" + randomImageNumber + ".png";
+        "./assets/emoji-positive-" + randomImageNumber + ".png";
       $emoji.attr("src", randomImagePath);
     });
   }
