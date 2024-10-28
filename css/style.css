@@ -144,7 +144,6 @@ legend {
 
 a {
   text-decoration: none;
-  select-dummy: expression(this.hideFocus=true);
 }
 
 body,
@@ -593,7 +592,7 @@ http://scripts.sil.org/OFL
   position: absolute;
   content: "";
   display: block;
-  background: url(../assets/crud-arrow.png);
+  background: url(./../assets/crud-arrow.png);
   width: 8px;
   height: 13px;
   background-size: contain;
@@ -896,7 +895,7 @@ http://scripts.sil.org/OFL
 }
 
 .list-modify.type-modifyFaq .faq-input.on .faq-input-head::before {
-  background-image: url("../assets/faq-q-on.png");
+  background-image: url("./../assets/faq-q-on.png");
   opacity: 1;
 }
 
@@ -937,14 +936,14 @@ http://scripts.sil.org/OFL
   top: 19px;
   width: 14px;
   height: 14px;
-  background-image: url("../assets/faq-q.png");
+  background-image: url("./../assets/faq-q.png");
   opacity: 0.4;
 }
 
 .list-modify.type-modifyFaq .faq-input .faq-input-head:after {
   width: 17px;
   height: 17px;
-  background-image: url("../assets/ico-arrow-l.png");
+  background-image: url("./../assets/ico-arrow-l.png");
   -webkit-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
   transform: rotate(-90deg);
@@ -964,7 +963,7 @@ http://scripts.sil.org/OFL
   background-repeat: no-repeat;
   width: 13px;
   height: 13px;
-  background-image: url("../assets/faq-a-on.png");
+  background-image: url("./../assets/faq-a-on.png");
   position: absolute;
   left: 15px;
   top: 3px;
@@ -1096,7 +1095,7 @@ http://scripts.sil.org/OFL
 }
 
 .list-modify li .faq-input.on .faq-input-head::before {
-  background-image: url("../assets/faq-q-on.png");
+  background-image: url("./../assets/faq-q-on.png");
   opacity: 1;
 }
 
@@ -1139,14 +1138,14 @@ http://scripts.sil.org/OFL
   top: 19px;
   width: 14px;
   height: 14px;
-  background-image: url("../assets/faq-q.png");
+  background-image: url("./../assets/faq-q.png");
   opacity: 0.4;
 }
 
 .list-modify li .faq-input .faq-input-head:after {
   width: 17px;
   height: 17px;
-  background-image: url("../assets/ico-arrow-l.png");
+  background-image: url("./../assets/ico-arrow-l.png");
   -webkit-transform: rotate(-90deg);
   -ms-transform: rotate(-90deg);
   transform: rotate(-90deg);
@@ -1166,7 +1165,7 @@ http://scripts.sil.org/OFL
   background-repeat: no-repeat;
   width: 13px;
   height: 13px;
-  background-image: url("../assets/faq-a-on.png");
+  background-image: url("./../assets/faq-a-on.png");
   position: absolute;
   left: 15px;
   top: 3px;
@@ -1385,7 +1384,7 @@ http://scripts.sil.org/OFL
   position: absolute;
   content: "";
   display: block;
-  background: url("../assets/crud-arrow.png");
+  background: url("./../assets/crud-arrow.png");
   width: 8px;
   height: 13px;
   background-size: contain;
@@ -1461,7 +1460,7 @@ http://scripts.sil.org/OFL
   top: 19px;
   width: 14px;
   height: 14px;
-  background-image: url("../assets/faq-q.png");
+  background-image: url("./../assets/faq-q.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -1472,7 +1471,7 @@ http://scripts.sil.org/OFL
   position: absolute;
   content: "";
   display: block;
-  background: url("../assets/crud-arrow.png");
+  background: url("./../assets/crud-arrow.png");
   width: 8px;
   height: 13px;
   background-size: contain;
@@ -1500,7 +1499,7 @@ http://scripts.sil.org/OFL
 }
 
 .list-faq ul .faq-item.on .faq-tit:before {
-  background-image: url("../assets/faq-q-on-blue.png");
+  background-image: url("./../assets/faq-q-on-blue.png");
   opacity: 1;
 }
 
@@ -1725,7 +1724,7 @@ http://scripts.sil.org/OFL
   width: 11px;
   height: 9px;
   display: block;
-  background-image: url("../assets/ico-filter.png");
+  background-image: url("./../assets/ico-filter.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -1736,7 +1735,7 @@ http://scripts.sil.org/OFL
   width: 11px;
   height: 9px;
   display: block;
-  background: url("../assets/ico-filter-on.png") no-repeat;
+  background: url("./../assets/ico-filter-on.png") no-repeat;
   background-size: contain;
 }
 
@@ -1745,14 +1744,14 @@ http://scripts.sil.org/OFL
   height: 18px;
   left: 0.5px;
   position: relative;
-  background-image: url("../assets/ico-menu-setting.png");
+  background-image: url("./../assets/ico-menu-setting.png");
 }
 
 .list-filter-group .list-filter li.type-ico.setting.on a::after {
   left: 0;
   width: 13px;
   height: 13px;
-  background-image: url("../assets/ico-favorite-setting.png");
+  background-image: url("./../assets/ico-favorite-setting.png");
 }
 
 .list-filter-group .list-filter li.on a {
@@ -3251,7 +3250,7 @@ select.disabled,
 .like-input.type-select:after {
   content: "";
   display: block;
-  background: url("../assets/selected-arrow.png") no-repeat center;
+  background: url("./../assets/selected-arrow.png") no-repeat center;
   background-size: contain;
   width: 16px;
   height: 16px;
@@ -3260,7 +3259,7 @@ select.disabled,
 .like-input.type-time:after {
   content: "";
   display: block;
-  background: url("../assets/ico-time.png") no-repeat center;
+  background: url("./../assets/ico-time.png") no-repeat center;
   background-size: contain;
   width: 18px;
   height: 18px;
@@ -3269,7 +3268,7 @@ select.disabled,
 .like-input.type-date:after {
   content: "";
   display: block;
-  background: url("../assets/ico-date.png") no-repeat center;
+  background: url("./../assets/ico-date.png") no-repeat center;
   background-size: contain;
   width: 18px;
   height: 18px;
@@ -3278,7 +3277,7 @@ select.disabled,
 .like-input.type-search:after {
   content: "";
   display: block;
-  background: url("../assets/ico-search.png") no-repeat center;
+  background: url("./../assets/ico-search.png") no-repeat center;
   background-size: contain;
   width: 28px;
   height: 28px;
@@ -3311,7 +3310,7 @@ select.disabled,
 .like-input.type-added:after {
   content: "";
   display: block;
-  background: url("../assets/ico-added.png") no-repeat center;
+  background: url("./../assets/ico-added.png") no-repeat center;
   background-size: contain;
   width: 17px;
   height: 17px;
@@ -3427,7 +3426,7 @@ select.center {
   display: block;
   width: 7px;
   height: 4px;
-  background: url("../assets/crud-select-arrow.png") no-repeat;
+  background: url("./../assets/crud-select-arrow.png") no-repeat;
   background-size: contain;
 }
 
@@ -3456,7 +3455,7 @@ select.center {
   display: block;
   width: 29px;
   height: 22px;
-  background: url("../assets/crud-cam.png") no-repeat;
+  background: url("./../assets/crud-cam.png") no-repeat;
   background-size: contain;
 }
 
@@ -3646,7 +3645,7 @@ select.center {
 }
 
 .input-item-inner.block .checkbox input:checked + span:after {
-  background: url("../assets/ico-checkbox-on.png") no-repeat center;
+  background: url("./../assets/ico-checkbox-on.png") no-repeat center;
   background-size: contain;
 }
 
@@ -3660,7 +3659,7 @@ select.center {
 .input-item-inner.block .checkbox span:after {
   content: "";
   display: block;
-  background: url("../assets/ico-checkbox-off.png") no-repeat center;
+  background: url("./../assets/ico-checkbox-off.png") no-repeat center;
   background-size: contain;
   width: 17px;
   height: 17px;
@@ -3779,7 +3778,7 @@ select.center {
 }
 
 .checkbox.select input:checked + span:after {
-  background: url(../assets/ico-checkbox-on.png) no-repeat center;
+  background: url(./../assets/ico-checkbox-on.png) no-repeat center;
   background-size: contain;
 }
 
@@ -3830,7 +3829,7 @@ select.center {
   position: static;
   display: block;
   margin-right: 8px;
-  background: url(../assets/ico-checkbox-off.png) no-repeat center;
+  background: url(./../assets/ico-checkbox-off.png) no-repeat center;
   background-size: contain;
   width: 17px;
   height: 17px;
@@ -3858,7 +3857,7 @@ select.center {
 }
 
 .checkbox.agree input:checked + span:before {
-  background: url(../assets/ico-checkbox-on.png) no-repeat center;
+  background: url(./../assets/ico-checkbox-on.png) no-repeat center;
   background-size: contain;
 }
 
@@ -3882,7 +3881,7 @@ select.center {
   position: static;
   display: block;
   margin-right: 8px;
-  background: url(../assets/ico-checkbox-off.png) no-repeat center;
+  background: url(./../assets/ico-checkbox-off.png) no-repeat center;
   background-size: contain;
   width: 17px;
   height: 17px;
@@ -3902,32 +3901,32 @@ select.center {
 }
 
 .checkbox input:checked + span:before {
-  background: url("../assets/crud-check-checked.png") no-repeat center;
+  background: url("./../assets/crud-check-checked.png") no-repeat center;
   background-size: contain;
 }
 
 .checkbox input:disabled + span:before {
-  background: url("../assets/crud-check-disabled.png") no-repeat center;
+  background: url("./../assets/crud-check-disabled.png") no-repeat center;
   background-size: contain;
 }
 
 .checkbox span:before {
-  background: url("../assets/crud-check.png") no-repeat center;
+  background: url("./../assets/crud-check.png") no-repeat center;
   background-size: contain;
 }
 
 .radio input:checked + span:before {
-  background: url("../assets/crud-radio-checked.png") no-repeat center;
+  background: url("./../assets/crud-radio-checked.png") no-repeat center;
   background-size: contain;
 }
 
 .radio input:disabled + span:before {
-  background: url("../assets/crud-radio-disalbed.png") no-repeat center;
+  background: url("./../assets/crud-radio-disalbed.png") no-repeat center;
   background-size: contain;
 }
 
 .radio span:before {
-  background: url("../assets/crud-radio.png") no-repeat center;
+  background: url("./../assets/crud-radio.png") no-repeat center;
   background-size: contain;
 }
 
@@ -4280,19 +4279,19 @@ a.ico:active {
 }
 
 .ico.back:after {
-  background-image: url("../assets/ico-back.png");
+  background-image: url("./../assets/ico-back.png");
 }
 
 .ico.alram:after {
-  background-image: url("../assets/ico-alram.png");
+  background-image: url("./../assets/ico-alram.png");
 }
 
 .ico.call:after {
-  background-image: url("../assets/ico-call.png");
+  background-image: url("./../assets/ico-call.png");
 }
 
 .ico.report:after {
-  background-image: url("../assets/ico-report.png");
+  background-image: url("./../assets/ico-report.png");
 }
 
 .ico.delete {
@@ -4301,7 +4300,7 @@ a.ico:active {
 }
 
 .ico.delete:after {
-  background-image: url("../assets/ico-delete.png");
+  background-image: url("./../assets/ico-delete.png");
 }
 
 .ico.delete:active {
@@ -4309,7 +4308,7 @@ a.ico:active {
 }
 
 .ico.search:after {
-  background-image: url("../assets/ico-search.png");
+  background-image: url("./../assets/ico-search.png");
 }
 
 .ico.refresh {
@@ -4318,7 +4317,7 @@ a.ico:active {
 }
 
 .ico.refresh:after {
-  background-image: url("../assets/ico-refresh.png");
+  background-image: url("./../assets/ico-refresh.png");
 }
 
 .ico.refresh.clickSpin:after {
@@ -4329,21 +4328,21 @@ a.ico:active {
 .ico.favorite.on:after {
   -webkit-animation: ani-beat 1s both;
   animation: ani-beat 1s both;
-  background-image: url("../assets/ico-favorite-on.png");
+  background-image: url("./../assets/ico-favorite-on.png");
 }
 
 .ico.favorite:after {
-  background-image: url("../assets/ico-favorite.png");
+  background-image: url("./../assets/ico-favorite.png");
 }
 
 .ico.like.on:after {
   -webkit-animation: ani-beat 1s both;
   animation: ani-beat 1s both;
-  background-image: url("../assets/ico-like-on.png");
+  background-image: url("./../assets/ico-like-on.png");
 }
 
 .ico.like:after {
-  background-image: url("../assets/ico-like.png");
+  background-image: url("./../assets/ico-like.png");
 }
 
 .ico.attach {
@@ -4352,7 +4351,7 @@ a.ico:active {
 }
 
 .ico.attach:after {
-  background-image: url("../assets/ico-attach.png");
+  background-image: url("./../assets/ico-attach.png");
 }
 
 .ico.send {
@@ -4361,7 +4360,7 @@ a.ico:active {
 }
 
 .ico.send:after {
-  background-image: url("../assets/ico-send-on.png");
+  background-image: url("./../assets/ico-send-on.png");
 }
 
 .ico.drag {
@@ -4371,11 +4370,11 @@ a.ico:active {
 }
 
 .ico.drag:after {
-  background-image: url("../assets/ico-drag.png");
+  background-image: url("./../assets/ico-drag.png");
 }
 
 .ico.listMore:after {
-  background: url("../assets/ico-list-more.png") no-repeat center;
+  background: url("./../assets/ico-list-more.png") no-repeat center;
   background-size: contain;
 }
 
@@ -4388,32 +4387,32 @@ a.ico:active {
 .ico.scrollTop:after {
   width: 24px;
   height: 24px;
-  background: url("../assets/ico-scrollTop.png") no-repeat center;
+  background: url("./../assets/ico-scrollTop.png") no-repeat center;
   background-size: contain;
 }
 
 .ico.location:after {
-  background-image: url("../assets/crud-location.png");
+  background-image: url("./../assets/crud-location.png");
 }
 
 .ico.stopover:after {
-  background-image: url("../assets/crud-location-stopover.png");
+  background-image: url("./../assets/crud-location-stopover.png");
 }
 
 .ico.depart:after {
-  background-image: url("../assets/crud-location-depart.png");
+  background-image: url("./../assets/crud-location-depart.png");
 }
 
 .ico.more:after {
-  background-image: url("../assets/ico-more.png");
+  background-image: url("./../assets/ico-more.png");
 }
 
 .ico.help:after {
-  background-image: url("../assets/ico-help.png");
+  background-image: url("./../assets/ico-help.png");
 }
 
 .ico.modify:after {
-  background-image: url("../assets/crud-modify.png");
+  background-image: url("./../assets/crud-modify.png");
 }
 
 .ico.modify.fill {
@@ -4426,13 +4425,13 @@ a.ico:active {
 }
 
 .ico.myloacation:after {
-  background-image: url("../assets/ico-myloacation.png");
+  background-image: url("./../assets/ico-myloacation.png");
   width: 18px;
   height: 18px;
 }
 
 .ico.myRefresh:after {
-  background-image: url("../assets/ico-myRefresh.png");
+  background-image: url("./../assets/ico-myRefresh.png");
   width: 17px;
   height: 17px;
   -webkit-animation: ani-refresh 1s;
@@ -4445,27 +4444,27 @@ a.ico:active {
 }
 
 .ico.check:after {
-  background-image: url("../assets/ico-checkbox-off.png");
+  background-image: url("./../assets/ico-checkbox-off.png");
   width: 17px;
   height: 17px;
 }
 
 .ico.copy:after {
-  background-image: url("../assets/ico-copy.png");
+  background-image: url("./../assets/ico-copy.png");
   width: 11px;
   height: 12px;
 }
 
 .ico.chat:after {
-  background-image: url("../assets/crud-chat.png");
+  background-image: url("./../assets/crud-chat.png");
 }
 
 .ico.call:after {
-  background-image: url("../assets/crud-call.png");
+  background-image: url("./../assets/crud-call.png");
 }
 
 .ico.close:after {
-  background-image: url("../assets/ico-delete-line.png");
+  background-image: url("./../assets/ico-delete-line.png");
   width: 10px;
   height: 10px;
 }
@@ -4591,7 +4590,7 @@ a.ico:active {
   display: block;
   width: 15px;
   height: 10px;
-  background-image: url("../assets/crud-text-arrow.png");
+  background-image: url("./../assets/crud-text-arrow.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -4636,7 +4635,7 @@ a.ico:active {
 }
 
 .header.serviceStart .ico.back:after {
-  background-image: url("../assets/ico-back-white.png");
+  background-image: url("./../assets/ico-back-white.png");
 }
 
 .header.serviceStart .text-btn.positive.fill {
@@ -4799,7 +4798,7 @@ a.ico:active {
 .header .like-titlelilne:after {
   content: "";
   display: block;
-  background: url("../assets/crud-titlelineArrow.png") no-repeat;
+  background: url("./../assets/crud-titlelineArrow.png") no-repeat;
   width: 17px;
   height: 17px;
   background-size: contain;
@@ -4926,7 +4925,7 @@ a.ico:active {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  background-image: url("../assets/ico-search.png");
+  background-image: url("./../assets/ico-search.png");
   position: absolute;
   left: 0;
   top: 0;
@@ -5010,7 +5009,7 @@ a.ico:active {
 .search-data-list ul li .ico.delete:after {
   width: 10px;
   height: 10px;
-  background-image: url("../assets/ico-delete-line.png");
+  background-image: url("./../assets/ico-delete-line.png");
   opacity: 0.7;
 }
 
@@ -5105,19 +5104,19 @@ a.ico:active {
 }
 
 .btmBar ul li.home a:before {
-  background-image: url("../assets/gnb-home.png");
+  background-image: url("./../assets/gnb-home.png");
 }
 
 .btmBar ul li.category a:before {
-  background-image: url("../assets/gnb-category.png");
+  background-image: url("./../assets/gnb-category.png");
 }
 
 .btmBar ul li.history a:before {
-  background-image: url("../assets/gnb-history.png");
+  background-image: url("./../assets/gnb-history.png");
 }
 
 .btmBar ul li.chat a:before {
-  background-image: url("../assets/gnb-chat.png");
+  background-image: url("./../assets/gnb-chat.png");
 }
 
 .btmBar ul li.my a::before {
@@ -5165,7 +5164,7 @@ a.ico:active {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../assets/gnb-my.png");
+  background-image: url("./../assets/gnb-my.png");
 }
 
 .btmBar ul li.on a {
@@ -5173,23 +5172,23 @@ a.ico:active {
 }
 
 .btmBar ul li.on.home a:before {
-  background-image: url("../assets/gnb-home-on.png");
+  background-image: url("./../assets/gnb-home-on.png");
 }
 
 .btmBar ul li.on.category a:before {
-  background-image: url("../assets/gnb-category-on.png");
+  background-image: url("./../assets/gnb-category-on.png");
 }
 
 .btmBar ul li.on.history a:before {
-  background-image: url("../assets/gnb-history-on.png");
+  background-image: url("./../assets/gnb-history-on.png");
 }
 
 .btmBar ul li.on.chat a:before {
-  background-image: url("../assets/gnb-chat-on.png");
+  background-image: url("./../assets/gnb-chat-on.png");
 }
 
 .btmBar ul li.on.my a:before {
-  background-image: url("../assets/gnb-my-on.png");
+  background-image: url("./../assets/gnb-my-on.png");
 }
 
 .emoji {
@@ -5285,7 +5284,7 @@ a.ico:active {
   content: "";
   width: 16px;
   height: 16px;
-  background: url("../assets/crud-loacation.png") no-repeat;
+  background: url("./../assets/crud-loacation.png") no-repeat;
   background-size: contain;
 }
 
@@ -5957,7 +5956,7 @@ a.ico:active {
   top: 8px;
   display: block;
   text-indent: -999rem;
-  background: url("../assets/crud-preview-close.png") no-repeat center;
+  background: url("./../assets/crud-preview-close.png") no-repeat center;
   background-repeat: no-repeat;
   background-size: contain;
   width: 32px;
@@ -6204,7 +6203,7 @@ a.ico:active {
 }
 
 .markerBox.type-pin.yellow:after {
-  background: url("../assets/map-pin-yellow.png") no-repeat center;
+  background: url("./../assets/map-pin-yellow.png") no-repeat center;
   background-size: contain;
 }
 
@@ -6220,7 +6219,7 @@ a.ico:active {
   margin: auto;
   display: block;
   content: "";
-  background: url("../assets/map-pin.png") no-repeat center;
+  background: url("./../assets/map-pin.png") no-repeat center;
   background-size: contain;
   width: 40px;
   height: 52px;
@@ -6312,7 +6311,7 @@ a.ico:active {
   position: absolute;
   content: "";
   display: block;
-  background: url(../assets/crud-arrow.png);
+  background: url(./../assets/crud-arrow.png);
   width: 8px;
   height: 13px;
   background-size: contain;
@@ -6727,7 +6726,7 @@ pre.desc {
 .loading .loading-icon {
   width: 76px;
   height: 76px;
-  background: url(../assets/loading.gif) no-repeat;
+  background: url(./../assets/loading.gif) no-repeat;
   background-size: contain;
   background-position: center;
 }
@@ -6836,7 +6835,7 @@ pre.desc {
   margin: auto;
   z-index: 9;
   border: none;
-  background-image: url("../assets/drag-default.png");
+  background-image: url("./../assets/drag-default.png");
   background-size: 14px 14px;
   background-color: var(--rec-secondary);
   background-repeat: no-repeat;
@@ -6871,7 +6870,7 @@ pre.desc {
   display: block;
   width: 6px;
   height: 7px;
-  background: url("../assets/push-arrow.png") no-repeat;
+  background: url("./../assets/push-arrow.png") no-repeat;
   background-size: contain;
   position: absolute;
   top: 0;
@@ -7077,7 +7076,7 @@ pre.desc {
   opacity: 0;
   -webkit-animation: blink 1s infinite;
   animation: blink 1s infinite;
-  background: url("../assets/ico-arrow-r-w.png") no-repeat;
+  background: url("./../assets/ico-arrow-r-w.png") no-repeat;
   width: 10px;
   height: 10px;
   text-indent: -999rem;
@@ -7495,11 +7494,11 @@ html.gray .tab-main {
 }
 
 .tab-main ul li.please a:after {
-  background-image: url("../assets/text-tab-please.png");
+  background-image: url("./../assets/text-tab-please.png");
 }
 
 .tab-main ul li.doit a:after {
-  background-image: url("../assets/text-tab-doit.png");
+  background-image: url("./../assets/text-tab-doit.png");
 }
 
 .tab-main ul li.on a {
@@ -7507,11 +7506,11 @@ html.gray .tab-main {
 }
 
 .tab-main ul li.on.please a:after {
-  background-image: url("../assets/text-tab-please-on.png");
+  background-image: url("./../assets/text-tab-please-on.png");
 }
 
 .tab-main ul li.on.doit a:after {
-  background-image: url("../assets/text-tab-doit-on.png");
+  background-image: url("./../assets/text-tab-doit-on.png");
 }
 
 .tab-main + .sticky-rel {
@@ -7897,7 +7896,7 @@ main .main-contents {
 .global-search .inner .ico.search::after {
   width: 28px;
   height: 28px;
-  background-image: url("../assets/ico-search.png");
+  background-image: url("./../assets/ico-search.png");
   background-size: contain;
 }
 
@@ -8108,7 +8107,7 @@ main .main-contents {
 }
 
 .category-item .ico.delete:after {
-  background-image: url("../assets/ico-delete-line.png");
+  background-image: url("./../assets/ico-delete-line.png");
 }
 
 .category-item.black {
@@ -8624,7 +8623,7 @@ a.category-mainItem:active {
 }
 
 .talk-input .send.disabled:after {
-  background-image: url("../assets/ico-send.png");
+  background-image: url("./../assets/ico-send.png");
 }
 
 .inputShowTarget {
@@ -8718,7 +8717,7 @@ a.category-mainItem:active {
   width: 17px;
   height: 5px;
   display: block;
-  background: url("../assets/crud-more.png") no-repeat;
+  background: url("./../assets/crud-more.png") no-repeat;
   background-size: contain;
 }
 
@@ -8751,7 +8750,7 @@ a.category-mainItem:active {
   display: block;
   width: 17px;
   height: 17px;
-  background: url("../assets/ico-favorite-on.png") no-repeat;
+  background: url("./../assets/ico-favorite-on.png") no-repeat;
   background-size: contain;
 }
 
@@ -9513,7 +9512,7 @@ a.category-mainItem:active {
   position: absolute;
   content: "";
   display: block;
-  background: url("../assets/crud-arrow.png");
+  background: url("./../assets/crud-arrow.png");
   width: 8px;
   height: 13px;
   background-size: contain;
@@ -9616,7 +9615,7 @@ a.category-mainItem:active {
   position: absolute;
   content: none;
   display: block;
-  background: url("../assets/crud-arrow.png");
+  background: url("./../assets/crud-arrow.png");
   width: 8px;
   height: 13px;
   background-size: contain;
@@ -9827,7 +9826,7 @@ a.category-mainItem:active {
   display: block;
   width: 14px;
   height: 14px;
-  background: url("../assets/ico-appointed.png") no-repeat;
+  background: url("./../assets/ico-appointed.png") no-repeat;
   background-size: contain;
 }
 
@@ -9855,12 +9854,12 @@ a.category-mainItem:active {
   float: left;
   width: 44px;
   height: 44px;
-  background: url("../assets/ico-favorite-off.png") no-repeat;
+  background: url("./../assets/ico-favorite-off.png") no-repeat;
   background-size: contain;
 }
 
 .star-rating .star.on {
-  background: url("../assets/ico-favorite-on.png") no-repeat;
+  background: url("./../assets/ico-favorite-on.png") no-repeat;
   background-size: contain;
 }
 
@@ -9994,7 +9993,7 @@ a.category-mainItem:active {
 .tutorial-group .tutorial .tutorial-text:after {
   content: "";
   display: block;
-  background-image: url("../assets/tutorial-arrow.png");
+  background-image: url("./../assets/tutorial-arrow.png");
   background-repeat: no-repeat;
   background-size: contain;
   width: 26px;
@@ -10014,7 +10013,7 @@ a.category-mainItem:active {
 
 .tutorial-group .tutorial .tutorial-text.top:after {
   margin: auto auto 10px;
-  background-image: url("../assets/tutorial-arrow-top.png");
+  background-image: url("./../assets/tutorial-arrow-top.png");
 }
 
 .tutorial-group .tutorial .tutorial-subtext {
@@ -10466,7 +10465,7 @@ a.category-mainItem:active {
 }
 
 .clientWeb-header.transparent .logo a div {
-  background-image: url(../assets/logo-w.png);
+  background-image: url(./../assets/logo-w.png);
 }
 
 .clientWeb-header.transparent .gnb ul li:hover a {
@@ -10484,7 +10483,7 @@ a.category-mainItem:active {
 }
 
 .clientWeb-header.transparent .gnb-open {
-  background-image: url("../assets/ico-gnb-w.png");
+  background-image: url("./../assets/ico-gnb-w.png");
 }
 
 .clientWeb-header.transparent .gnb-open .gnb ul li:hover a {
@@ -10506,7 +10505,7 @@ a.category-mainItem:active {
 }
 
 .clientWeb-header.scroll .logo a div {
-  background-image: url(../assets/logo.png);
+  background-image: url(./../assets/logo.png);
 }
 
 .clientWeb-header.scroll .gnb ul li.on a {
@@ -10519,7 +10518,7 @@ a.category-mainItem:active {
 }
 
 .clientWeb-header.scroll .gnb-open {
-  background-image: url("../assets/ico-gnb.png");
+  background-image: url("./../assets/ico-gnb.png");
 }
 
 .clientWeb-footer {
@@ -10640,7 +10639,7 @@ a.category-mainItem:active {
   text-indent: -999rem;
   width: 40px;
   height: 40px;
-  background-image: url("../assets/ico-gnb.png");
+  background-image: url("./../assets/ico-gnb.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -10650,7 +10649,7 @@ a.category-mainItem:active {
 }
 
 .clientWeb .gnb-open.on {
-  background-image: url("../assets/ico-gnb-close.png");
+  background-image: url("./../assets/ico-gnb-close.png");
 }
 
 .clientWeb .logo a {
@@ -10667,7 +10666,7 @@ a.category-mainItem:active {
 }
 
 .clientWeb .logo a div {
-  background-image: url("../assets/logo.png");
+  background-image: url("./../assets/logo.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -10683,13 +10682,13 @@ a.category-mainItem:active {
   display: block;
   width: 32px;
   height: 32px;
-  background-image: url("../assets/emoji-logo.png");
+  background-image: url("./../assets/emoji-logo.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .clientWeb .logo.type-footer a div {
-  background-image: url("../assets/logo-footer.png");
+  background-image: url("./../assets/logo-footer.png");
   width: 198px;
   height: 22px;
 }
@@ -10783,7 +10782,7 @@ a.category-mainItem:active {
   display: block;
   width: 10px;
   height: 16px;
-  background: url("../assets/button-arrow.png") no-repeat;
+  background: url("./../assets/button-arrow.png") no-repeat;
   background-size: contain;
   -webkit-animation: webArrowRight 0.4s infinite alternate;
   animation: webArrowRight 0.4s infinite alternate;
@@ -10943,7 +10942,7 @@ a.category-mainItem:active {
   position: absolute;
   left: 0;
   top: 0;
-  background-image: url("../assets/img-serachbar.png");
+  background-image: url("./../assets/img-serachbar.png");
   background-size: contain;
   background-position: center;
 }
@@ -11002,7 +11001,7 @@ a.category-mainItem:active {
 .clientWeb .web-section.main .mainVisual .symbol:after {
   position: absolute;
   content: "";
-  background: url("../assets/onboarding02.gif") no-repeat;
+  background: url("./../assets/onboarding02.gif") no-repeat;
   width: 140px;
   height: 140px;
   background-size: contain;
@@ -11122,7 +11121,7 @@ a.category-mainItem:active {
 }
 
 .clientWeb .web-section.service {
-  background: url("../assets/bg-service.png") no-repeat;
+  background: url("./../assets/bg-service.png") no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -11467,7 +11466,7 @@ a.category-mainItem:active {
 }
 
 .clientWeb .web-section.banner {
-  background-image: url("../assets/bg-banner.png");
+  background-image: url("./../assets/bg-banner.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -11488,7 +11487,7 @@ a.category-mainItem:active {
 }
 
 .clientWeb .web-section.banner.final {
-  background-image: url("../assets/bg-banner02.png");
+  background-image: url("./../assets/bg-banner02.png");
 }
 
 .clientWeb .web-section.banner.video {
@@ -11734,7 +11733,7 @@ a.category-mainItem:active {
   display: block;
   width: 91px;
   height: 40px;
-  background: url("../assets/bg-glassCircle-shadow.png") no-repeat;
+  background: url("./../assets/bg-glassCircle-shadow.png") no-repeat;
   background-size: contain;
   position: absolute;
   left: 0;
@@ -11777,7 +11776,7 @@ a.category-mainItem:active {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background: url("../assets/bg-glassCricle.png") no-repeat;
+  background: url("./../assets/bg-glassCricle.png") no-repeat;
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -12132,7 +12131,7 @@ a.category-mainItem:active {
 }
 
 .clientWeb .web-section.about {
-  background-image: url("../assets/bg-about.png");
+  background-image: url("./../assets/bg-about.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top left;
@@ -12192,7 +12191,7 @@ a.category-mainItem:active {
   display: block;
   width: 100%;
   height: 90%;
-  background-image: url("../assets/img-graph.png");
+  background-image: url("./../assets/img-graph.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom right;
@@ -12599,7 +12598,7 @@ a.category-mainItem:active {
 }
 
 .clientWeb .web-section .list-faq ul .faq-item.on .faq-tit:before {
-  background-image: url("../assets/ico-qna-on.png");
+  background-image: url("./../assets/ico-qna-on.png");
 }
 
 .clientWeb .web-section .info-box {
@@ -12855,7 +12854,7 @@ a.category-mainItem:active {
   height: 17px;
   content: "";
   display: block;
-  background: url("../assets/ico-polygon.png");
+  background: url("./../assets/ico-polygon.png");
   background-size: contain;
 }
 
@@ -13708,7 +13707,7 @@ a.category-mainItem:active {
   }
 
   .clientWeb .web-section.growth:after {
-    background-image: url("../assets/img-graph-m.png");
+    background-image: url("./../assets/img-graph-m.png");
     height: 100%;
     opacity: 1;
   }
@@ -13955,7 +13954,7 @@ a.category-mainItem:active {
   }
 
   .clientWeb .web-section .list-faq ul .faq-item.on .faq-tit:before {
-    background-image: url("../assets/ico-qna-on.png");
+    background-image: url("./../assets/ico-qna-on.png");
   }
 
   .clientWeb .web-section .info-box {
@@ -14173,7 +14172,7 @@ html .ui-button.ui-state-disabled:active {
 .ui-datepicker .ui-widget-header .ui-datepicker-prev span {
   width: 17px;
   height: 17px;
-  background: url("../assets/ico-arrow-l.png") no-repeat;
+  background: url("./../assets/ico-arrow-l.png") no-repeat;
   background-size: contain;
 }
 
@@ -14186,7 +14185,7 @@ html .ui-button.ui-state-disabled:active {
 }
 
 .ui-datepicker .ui-widget-header .ui-datepicker-next span {
-  background: url("../assets/ico-arrow-r.png") no-repeat;
+  background: url("./../assets/ico-arrow-r.png") no-repeat;
   background-size: contain;
 }
 
@@ -14287,7 +14286,7 @@ html .ui-button.ui-state-disabled:active {
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
-  background-image: url("../assets/selected-arrow.png");
+  background-image: url("./../assets/selected-arrow.png");
   background-repeat: no-repeat;
   background-position: right center;
   background-size: 17px;
@@ -14767,7 +14766,6 @@ html .ui-button.ui-state-disabled:active {
 
 .type-index a {
   text-decoration: none;
-  select-dummy: expression(this.hideFocus=true);
 }
 
 .type-index a:active {
